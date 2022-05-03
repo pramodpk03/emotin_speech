@@ -72,7 +72,7 @@ def main():
                     prediction_mlp(data,sampling_rate) 
     else:
         
-        original_title = '<p style="font-family:Courier; color:Teal; font-size: 18px;"><b>Speech Emotion Recognition (SER) can be defined as extraction of the emotional state of the speaker from his or her speech signal.We will be using different models to detect emotions for the audio input provided by the user.</b></p>'
+        original_title = '<p style="font-family:Courier; color:Teal; font-size: 18px;"><b>Speech Emotion Recognition (SER) can be defined as extraction of the emotional state of the speaker from his or her speech signal.</b></p>'
         st.markdown(original_title, unsafe_allow_html=True) 
         original_title = '<p style="font-family:Courier; color:white;font-size: 18px;"></br><b>User will have two options for trying out : MLP, CNN<b><p>'
         st.markdown(original_title, unsafe_allow_html=True)
